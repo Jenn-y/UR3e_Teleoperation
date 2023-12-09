@@ -3,7 +3,7 @@
 Group project for Robotics & XR course 2023 (IMLEX & COSI Erasmus Mundus Programs)
 
 RXR_project folder contains Unity app that records the coordinates of VR controller, calculates the joint angles via inverse kinematics and sends the angle values via http request to a Python API.
-robotArmManager folder contains Python API that receives angle values, records them in a file that will be read by RTDE and sent to the physical robot to move. ZED_ptcloud folder contains Unity app that captures real-time data from ZED Mini camera and display it in Unity editor.
+robotArmManager folder contains Python API that receives angle values, records them in a file that will be read by RTDE and sent to the physical robot to move. ZED_ptcloud folder contains Unity app that captures real-time data from ZED Mini camera and displays it in Unity editor.
 
 Installation of *git lfs* recommended for using the Unity app.
 
